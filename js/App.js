@@ -95,7 +95,7 @@ const MainScreen = ({ navigation }) => (
         }}
       >
         <View style={styles.item}>
-          <Text style={styles.title}>{'dddd' + ExampleRoutes[routeName].name}</Text>
+          <Text style={styles.title}>{ExampleRoutes[routeName].name}</Text>
           <Text style={styles.description}>
             {ExampleRoutes[routeName].description}
           </Text>
